@@ -11,11 +11,15 @@ repo_url: https://github.com/fablabbcn/efdi-template
 nav:
   - Home: index.md
   - About: about/me.md
-  - Proyecto:
-    - Ideas Iniciales: project/project.md
-  - Modulos Tecnicos :
-    - Bootcamp: term1/01-Bootcamp.md
-    - AoWS: term1/02-Atlas of Weak Signals.md
+  - Modulos Técnicos :
+    - MT01: tecnicos/mt01.md
+    - MT02: tecnicos/mt02.md
+  - Modulos Diseño :
+    - MD01: diseno/md01.md
+  - Modulos Inovación :
+    - MI01: inovacion/mi01.md
+  - Proyecto Integrador:
+    - Ideas Iniciales: proyecto/proyecto.md
 
 
 
