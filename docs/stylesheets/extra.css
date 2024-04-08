@@ -40,3 +40,9 @@
     font-weight: 300;
     font-size: 14px;
 }
+
+:root {
+  --md-primary-fg-color:        #0c453aff;
+  --md-primary-fg-color--light: rgb(37, 243, 202);
+  --md-primary-fg-color--dark:  #0c453aff;
+}
