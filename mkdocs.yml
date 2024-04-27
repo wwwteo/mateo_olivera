@@ -1,11 +1,11 @@
 # Replace the text below to customize your site
-site_name: Nombre Estudiante - UTEC & Fab Lab Barcelona
-site_description: Master in Design for Emergent Futures
-site_author: Nombre Estudiante
+site_name: Mateo Olivera - UTEC & Fab Lab Barcelona
+site_description: Especialización en Fabricación Digital e Innovación 
+site_author: Mateo Olivera
 copyright: Copyleft 2024 "Nombre Estudiante" - GNU Free Documentation License
-repo_name: 'Name : Github Repo'
-site_url: https://fablabbcn.github.io/efdi-template/
-repo_url: https://github.com/fablabbcn/efdi-template
+repo_name: 'Mateo Olivera : Github Repo'
+site_url: https://wwwteo.github.io/mateo_olivera/
+repo_url: https://github.com/wwwteo/mateo_olivera
 
 
 nav:
@@ -43,7 +43,7 @@ theme:
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
     primary: custom
-    accent: purple
+    accent: green
   font:
     # See available fonts at https://fonts.google.com/
     text: Be Vietnam

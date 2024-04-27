@@ -1,6 +1,5 @@
-# Sobre mi
-![](../images/fotomia.jpg)
-
+# ¿Quién sos?
+<img src="../images/fotomia.jpg" />
 
 ¡Hola! 
 
@@ -18,9 +17,9 @@ Físicamente me encuentro en el Laboratorio Innovación Abierta del Instituto Te
 
 
 
-LinkedIn
+<A HREF="https://www.linkedin.com/in/mateo-olivera-garc%C3%ADa-a15756134/"> LinkedIn </A>
 
-Github
+<A HREF="https://github.com/wwwteo"> Github </A>
 
 Discord: mateo_andriani
 
