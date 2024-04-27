@@ -1,5 +1,6 @@
 # ¿Quién sos?
-<img src="../images/fotomia.jpg" />
+
+![](../images/fotomia.jpg)
 
 ¡Hola! 
 
