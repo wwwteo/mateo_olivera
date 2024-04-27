@@ -1,7 +1,39 @@
 # Sobre mi
+![](../images/fotomia.jpg)
 
-![](../images/perezoso.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+¡Hola! 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit **[my website](https://community.emergentfutures.io/courses/5566525/content)**
+
+
+Mi nombre es Mateo Olivera, integro el equipo de UTEC desde el rol de Docente de Inicio de Fabricación Digital. Mi vínculo con la universidad comenzó cuando me mudé desde Cerro Largo a Fray Bentos a estudiar Ingeniería en Mecatrónica. En el proceso pude adquirir habilidades blandas así como conocimiento de las diferentes herramientas de fabricación digital disponibles en los Lab-A de UTEC.
+
+
+
+Me encuentro muy entusiasmado de poder participar en esta edición de la EFDI para profundizar en este campo y poder aplicar todo este contenido en el desarrollo de un nuevo proyecto.
+
+
+
+Físicamente me encuentro en el Laboratorio Innovación Abierta del Instituto Tecnológico Regional Sur-Oeste de UTEC y estaré asistiendo en las prácticas a quienes opten por venir a trabajar aquí.
+
+
+
+LinkedIn
+
+Github
+
+Discord: mateo_andriani
+
+Gmail: mateo.olivera@utec.edu.uy
+
+
+
+¡Nos vemos pronto!
+
+
+
+Saludos, 
+
+
+
+Mateo
