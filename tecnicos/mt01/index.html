@@ -579,19 +579,19 @@
                 <h1 id="mt01-introduccion-a-herramientas-digitales">MT01 - Introducción a herramientas digitales<a class="headerlink" href="#mt01-introduccion-a-herramientas-digitales" title="Permanent link">&para;</a></h1>
 <h2 id="acceso-a-github">Acceso a Github<a class="headerlink" href="#acceso-a-github" title="Permanent link">&para;</a></h2>
 <p>En este primer paso comencé por seguir los tutoriales dispiestos en el móduo para lograr establecer mi página web, lo primero es acceder a Github para poder tener acceso al repositorio global</p>
-<div align="center"><img src="images/MT01/creargithub.png" /></div>
+<div align="center"><img src="../images/MT01/creargithub.png"></div>
 
 <p>En mi caso ya cuento con un usuario de Github, simplemente agregué algo de información y actualicé mi perfil para estar presentable en este nuevo desafío 😀</p>
-<div align="center"><img src="images/MT01/perfil_github.png" /></div>
+<div align="center"><img src="../images/MT01/perfil_github.png"></div>
 
 <h2 id="instalacion-y-seteo-de-git">Instalación y seteo de git<a class="headerlink" href="#instalacion-y-seteo-de-git" title="Permanent link">&para;</a></h2>
-<div align="center"><img src="images/MT01/insgit.png" /></div>
+<div align="center"><img src="../images/MT01/insgit.png"></div>
 
 <p>Lo primero claramente es descargar el software al equipo, en mi caso con sistema operativo windows 8 :’/</p>
-<div align="center"><img src="images/MT01/descarga_git.png" /></div>
+<div align="center"><img src="../images/MT01/descarga_git.png"></div>
 
 <p>Al momento de ejecutar el instalador básicamente es necesario darle siguiente a todo hasta tener en el equipo estos programas disponibles. Al terminar la instalación se ejecuta automáticamente el interfaz de git bash.</p>
-<div align="center"><img src="images/MT01/gitbash.png" /></div>
+<div align="center"><img src="../images/MT01/gitbash.png"></div>
 
 <p>Este es una aplicación para entornos de Microsoft Windows que ofrece una capa de emulación para una experiencia de líneas de comandos de Git. Bash es el acrónimo en inglés de Bourne Again Shell. <a href="https://www.atlassian.com/es/git/tutorials/git-bash#:~:text=Git%20Bash%20es%20una%20aplicaci%C3%B3n,ingl%C3%A9s%20de%20Bourne%20Again%20Shell">https://www.atlassian.com/es/git/tutorials/git-bash#:~:text=Git%20Bash%20es%20una%20aplicaci%C3%B3n,ingl%C3%A9s%20de%20Bourne%20Again%20Shell</a>. </p>
 <p>Aquí es dónde comienza la magia, ya podremos empezar a interactuar con el ordenador ingresando comandos específicos para diferentes acciones.</p>
@@ -602,50 +602,50 @@
 <p>git config &ndash;global usuario.correo electrónico &ldquo;<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#115;&#116;&#101;&#100;&#64;&#101;&#106;&#101;&#109;&#112;&#108;&#111;&#46;&#99;&#111;&#109;">&#117;&#115;&#116;&#101;&#100;&#64;&#101;&#106;&#101;&#109;&#112;&#108;&#111;&#46;&#99;&#111;&#109;</a>&ldquo;</p>
 <p>Para verificar el nombre o el correo electrónico configurado actualmente en git, se puede usar el siguiente comando:</p>
 <p>git config &ndash;global &ndash;list</p>
-<div align="center"><img src="images/MT01/usuario.png" /></div>
+<div align="center"><img src="../images/MT01/usuario.png"></div>
 
 <h2 id="ssh-key">ssh key<a class="headerlink" href="#ssh-key" title="Permanent link">&para;</a></h2>
-<div align="center"><img src="images/MT01/generarssh.png" /></div>
+<div align="center"><img src="../images/MT01/generarssh.png"></div>
 
 <p>Una clave SSH es una credencial de acceso en el protocolo SSH . Su función es similar a la de los nombres de usuario y las contraseñas, pero las claves se utilizan principalmente para procesos automatizados y para implementar el inicio de sesión único por parte de administradores de sistemas y usuarios avanzados.</p>
 <p>Para la generación de la ssh key se utiliza el comando ssh-keygen -t rsa -C “mi email”.</p>
 <p>En mi caso el comando  cat ~/.ssh/id_rsa.pub para acceder a la ssh key recientemente creada muestra la siguiente cadena. </p>
-<div align="center"><img src="images/MT01/ssh_key_engit.png" /></div>
+<div align="center"><img src="../images/MT01/ssh_key_engit.png"></div>
 
 <p>Por último es necesario pegar la ssh key en github accediendo a Settings&gt;SSH and GPG keys&gt;New SSH Key.</p>
-<div align="center"><img src="images/MT01/ssh%20hey.png" /></div>
+<div align="center"><img src="../images/MT01/ssh%20hey.png"></div>
 
 <h2 id="creacion-del-fork">Creación del Fork<a class="headerlink" href="#creacion-del-fork" title="Permanent link">&para;</a></h2>
-<div align="center"><img src="images/MT01/fork_template.png" /></div>
+<div align="center"><img src="../images/MT01/fork_template.png"></div>
 
 <p>En este punto fue necesario acceder al <A HREF="https://fablabbcn.github.io/efdi-template/"> efdi-template </A> proporcionado, cliquear en la esquina superior derecha (Name : Github Repo) para dirigirnos al repositorio de Github. Una vez allí es necesario crear el fork, con nuestro usuario como owner se debe nombrar al repositorio con el formato nombre_apellido.</p>
-<div align="center"><img src="images/MT01/gitperfil.png" /></div>
+<div align="center"><img src="../images/MT01/gitperfil.png"></div>
 
 <p>Una vez completado este paso ya tenemos listo el repositorio remoto con un template de sitio web listo para editar.</p>
 <h2 id="repositorio-local">Repositorio local<a class="headerlink" href="#repositorio-local" title="Permanent link">&para;</a></h2>
-<div align="center"><img src="images/MT01/repolocal.png" /></div>
+<div align="center"><img src="../images/MT01/repolocal.png"></div>
 
 <p>Este es un paso necesario para obtener una copia del repositorio remoto en nuestros equipos, a esto se le denomina “Clone”. Lo primero es crear una carpeta en nuestro equipo, esto podemos hacerlo de la manera convencional con click derecho&gt;New folder o mediante el Git Bash con los comandos mkdir newfolder.</p>
-<div align="center"><img src="images/MT01/repo.png" /></div>
+<div align="center"><img src="../images/MT01/repo.png"></div>
 
 <p>Ya creada la carpeta donde se almacenará nuestro repositorio copiamos el link de nuestro repositorio remoto en Github para clonarlo en el repositorio local mediante el comando git clone. </p>
-<div align="center"><img src="images/MT01/gitclone.png" /></div>
+<div align="center"><img src="../images/MT01/gitclone.png"></div>
 
 <h2 id="obtener-el-link-del-sitio-web">Obtener el link del sitio web<a class="headerlink" href="#obtener-el-link-del-sitio-web" title="Permanent link">&para;</a></h2>
-<div align="center"><img src="images/MT01/activar_link.png" /></div>
+<div align="center"><img src="../images/MT01/activar_link.png"></div>
 
 <p>Para obtener el link a nuestro sitio web debemos dirigirnos a la pestaña Settings&gt;Pages&gt;Visit site en Github. Pero primero debemos hacer una primera modificación seguida de un push para poder configurar la opción de GitHub Pages.</p>
 <p>El software elegido para la edición de los archivos es Visual Studio Code (v1.79.2), para ello descargamos desde el sitio web de visual studio code, ejecutamos el programa y abrimos el repositorio local en el mismo. En mi caso al realizar el primer commit tuve autorizar el git credential manager. </p>
-<div align="center"><img src="images/MT01/vscode.png" /></div>
-<div align="center"><img src="images/MT01/credenciales_github.png" /></div>
-<div align="center"><img src="images/MT01/primer_cambio.png" /></div>
-<div align="center"><img src="images/MT01/gh_pages.png" /></div>
+<div align="center"><img src="../images/MT01/vscode.png"></div>
+<div align="center"><img src="../images/MT01/credenciales_github.png"></div>
+<div align="center"><img src="../images/MT01/primer_cambio.png"></div>
+<div align="center"><img src="../images/MT01/gh_pages.png"></div>
 
 <p>Una vez seleccionada la opción gh-pages  y salvando la acción ya deberíamos obtener el enlace a nuestro sitio web, para ver esto podemos dirigirnos a actions&gt;pages build and deployment.</p>
-<div align="center"><img src="images/MT01/page_build.png" /></div>
+<div align="center"><img src="../images/MT01/page_build.png"></div>
 
 <p>Bueno, ahora si, toca poner manos a la obra con este sitio web! Sitio donde alojar primeros avances, pifiadas, aciertos y hasta los más importantes resultados obtenidos. Dejo por acá una captura de pantalla de lo que es el home del sitio al día de hoy. </p>
-<div align="center"><img src="images/MT01/webhoy.png" /></div>
+<div align="center"><img src="../images/MT01/webhoy.png"></div>
                 
                   
                     
