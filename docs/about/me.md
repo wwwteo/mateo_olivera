@@ -1,8 +1,7 @@
 # ¿Quién sos?
 
-![](../images/fotomia.jpg)
+<div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/fotomia.jpg"></div>
 
-¡Hola! 
 
 
 

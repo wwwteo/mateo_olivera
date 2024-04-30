@@ -1,7 +1,6 @@
 ## ¡Bienvenidos!
 
-<img src="images/foto_index.jpg" />
-
+<div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/foto_index.jpg"></div>
 
 
 
