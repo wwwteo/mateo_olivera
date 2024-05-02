@@ -50,7 +50,7 @@ theme:
     code: Cutive Mono
   icon:
     logo: material/memory
-  favicon: /images/MT02/logoV1_BN.svg
+  favicon: /images/favicon.svg
   features:
     - instant
     - navigation.expand
