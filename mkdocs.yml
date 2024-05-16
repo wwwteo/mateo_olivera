@@ -17,9 +17,9 @@ nav:
   - Modulos Diseño :
     - MD01: diseno/md01.md
   - Modulos Innovación :
-    - MI01: inn/mi01.md
-    - MI02: inn/mi02.md
-    - MI03: inn/mi03.md
+    - MI01: innovacion/mi01.md
+    - MI02: innovacion/mi02.md
+    - MI03: innovacion/mi03.md
   - Proyecto Integrador:
     - Ideas Iniciales: proyecto/proyecto.md
   - Referencias:
@@ -45,14 +45,14 @@ theme:
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
     primary: custom
-    accent: green
+    accent: black
   font:
     # See available fonts at https://fonts.google.com/
-    text: Be Vietnam
+    text: Chakra Petch
     code: Cutive Mono
   icon:
     logo: material/memory
-  favicon: /images/favicon.svg
+  favicon: /images/favicon.ico
   features:
     - instant
     - navigation.expand
