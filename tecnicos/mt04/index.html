@@ -323,6 +323,27 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#03" class="md-nav__link">
+    03.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#04" class="md-nav__link">
+    04.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#05-la-unificacion" class="md-nav__link">
+    05. La unificación
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -560,6 +581,27 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#03" class="md-nav__link">
+    03.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#04" class="md-nav__link">
+    04.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#05-la-unificacion" class="md-nav__link">
+    05. La unificación
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -701,24 +743,16 @@
 
 <span class="p">}</span>
 </code></pre></div>
-<div align="center"><iframe width="640" height="360" src="https://www.youtube.com/embed/2yGvAI3e8X4" title="Prueba pid Arduino, pt100 + hotend 20w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>/div>
+<div align="center"><iframe width="640" height="360" src="https://www.youtube.com/embed/2yGvAI3e8X4" title="Prueba pid Arduino, pt100 + hotend 20w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-
-## 03. 
-
-En este punto sumaremos una nueva entrada al circuito, el potenciómetro. Para la conexión conectaremos los pines de afuera a 5v y gnd mientras que el del medio lo conectaremos a la entrada analógica A1 para obtener una lectura entre 0 y 1023. A nivel de código solo basta con agregar en el loop un analogRead(); para obtener la lectura, adicionalmente podemos crear una variable para almacenar la lectura y luego poderla mostrar en pantalla mediante el monitor serial.
-
-En la siguiente gráfica obtenida del ploteo de las variables en el serial plotter podemos apreciar el rango de variación de la entrada analógica que cambia a la par de la resistencia del potenciómetro (señal color naranja), la señal de color negro es el valor equivalente a loa 100°C de la medida de la sonda PT100 y también se puede ver en color rojo la señal del pwm generada por el PID para estabilizar la temperatura.
-
+<h2 id="03">03.<a class="headerlink" href="#03" title="Permanent link">&para;</a></h2>
+<p>En este punto sumaremos una nueva entrada al circuito, el potenciómetro. Para la conexión conectaremos los pines de afuera a 5v y gnd mientras que el del medio lo conectaremos a la entrada analógica A1 para obtener una lectura entre 0 y 1023. A nivel de código solo basta con agregar en el loop un analogRead(); para obtener la lectura, adicionalmente podemos crear una variable para almacenar la lectura y luego poderla mostrar en pantalla mediante el monitor serial.</p>
+<p>En la siguiente gráfica obtenida del ploteo de las variables en el serial plotter podemos apreciar el rango de variación de la entrada analógica que cambia a la par de la resistencia del potenciómetro (señal color naranja), la señal de color negro es el valor equivalente a loa 100°C de la medida de la sonda PT100 y también se puede ver en color rojo la señal del pwm generada por el PID para estabilizar la temperatura.</p>
 <div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/MT04/ploteo.png"></div>
 
-
-## 04. 
-
-Ahora solo resta poder controlar el motor de pasos Nema 17 para tener todos los componentes necesarios para crear un extrusor controlado por arduino, este sería nuestra segunda salida controlada y con esta estaría completa la consigna. Para poder controlar el motor de pasos vamos a necesitar controlar el driver encargado de excitar las bobinas del motor con el voltaje de trabajo de estos motores pero recibiendo las señales de control de 5v desde el arduino. El driver a utilizar es el <A HREF="https://www.pololu.com/file/0J450/a4988_DMOS_microstepping_driver_with_translator.pdf">A4988</A>.  
-
-El código implementado se basó en el <A HREF="http://yomaker.com/control-de-motor-paso-a-paso/ ">tutorial</A>  de yomaker y quedó de la siguiente manera.
-
+<h2 id="04">04.<a class="headerlink" href="#04" title="Permanent link">&para;</a></h2>
+<p>Ahora solo resta poder controlar el motor de pasos Nema 17 para tener todos los componentes necesarios para crear un extrusor controlado por arduino, este sería nuestra segunda salida controlada y con esta estaría completa la consigna. Para poder controlar el motor de pasos vamos a necesitar controlar el driver encargado de excitar las bobinas del motor con el voltaje de trabajo de estos motores pero recibiendo las señales de control de 5v desde el arduino. El driver a utilizar es el <A HREF="https://www.pololu.com/file/0J450/a4988_DMOS_microstepping_driver_with_translator.pdf">A4988</A>.  </p>
+<p>El código implementado se basó en el <A HREF="http://yomaker.com/control-de-motor-paso-a-paso/ ">tutorial</A>  de yomaker y quedó de la siguiente manera.</p>
 <div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">steps</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span><span class="w">       </span><span class="c1">// pin step 5</span>
 <span class="kt">int</span><span class="w"> </span><span class="n">direccion</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">4</span><span class="p">;</span><span class="w">   </span><span class="c1">// pin direccion 4</span>
 <span class="kt">int</span><span class="w"> </span><span class="n">potenciometro</span><span class="p">;</span><span class="w">   </span><span class="c1">// lectura del potenciometro</span>
@@ -742,18 +776,11 @@ El código implementado se basó en el <A HREF="http://yomaker.com/control-de-mo
 <span class="w">    </span><span class="n">delayMicroseconds</span><span class="p">(</span><span class="n">potenciometro</span><span class="p">);</span><span class="w"> </span><span class="c1">// generamos un retardo con el valor leido del potenciometro</span>
 <span class="w">  </span><span class="p">}</span>
 </code></pre></div>
-
 <div align="center"><iframe width="315" height="560" src="https://youtube.com/embed/a4I6wSzQyYo" title="Prueba de funcionamiento - Manivela" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-
-
-
-## 05. La unificación
-
-Bueno, después de dar unas buenas vueltas al asunto, he intentado unificar el sistema de control de temperatura y el control de motor con potenciómetro fracasando con total éxito. 
-
-Lo que entiendo que sucede es un conflicto de tiempos de ejecución, ya que cada sketch por separado funciona bien pero al unificarlos el PID pierde precisión y el motor de pasos se comporta de manera errónea. Para solucionar este inconveniente intenté implementar FreeRTOS, este es un sistema operativo de tiempo real kernel para dispositivos embebidos que puede correr en un microcontrolador. Aquí logramos switchear entre ambas tareas y asignarles prioridades. 
-
+<h2 id="05-la-unificacion">05. La unificación<a class="headerlink" href="#05-la-unificacion" title="Permanent link">&para;</a></h2>
+<p>Bueno, después de dar unas buenas vueltas al asunto, he intentado unificar el sistema de control de temperatura y el control de motor con potenciómetro fracasando con total éxito. </p>
+<p>Lo que entiendo que sucede es un conflicto de tiempos de ejecución, ya que cada sketch por separado funciona bien pero al unificarlos el PID pierde precisión y el motor de pasos se comporta de manera errónea. Para solucionar este inconveniente intenté implementar FreeRTOS, este es un sistema operativo de tiempo real kernel para dispositivos embebidos que puede correr en un microcontrolador. Aquí logramos switchear entre ambas tareas y asignarles prioridades. </p>
 <div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;PID_RT.h&quot;</span>
 <span class="n">PID_RT</span><span class="w"> </span><span class="n">PID</span><span class="p">;</span>
 
@@ -821,9 +848,7 @@ Lo que entiendo que sucede es un conflicto de tiempos de ejecución, ya que cada
 
 <span class="p">}</span>
 </code></pre></div>
-
-
-El resultado no fue muy convincente, solo funciona una de las dos tareas cuando le damos la máxima prioridad. Me toca seguir investigando alternativas para poder implementar un control más robusto para el extrusor.
+<p>El resultado no fue muy convincente, solo funciona una de las dos tareas cuando le damos la máxima prioridad. Me toca seguir investigando alternativas para poder implementar un control más robusto para el extrusor.</p>
                 
                   
                     
