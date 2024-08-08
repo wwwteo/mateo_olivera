@@ -1,0 +1,1023 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Especialización en Fabricación Digital e Innovación">
+      
+      
+        <link rel="canonical" href="https://wwwteo.github.io/mateo_olivera/tecnicos/mt06/">
+      
+      
+        <meta name="author" content="Mateo Olivera">
+      
+      <link rel="shortcut icon" href="/images/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-5.5.11">
+    
+    
+      
+        <title>MT06 - Mateo Olivera - UTEC & Fab Lab Barcelona</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.860688db.min.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.943997b5.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chakra+Petch:300,400,400i,700%7CCutive+Mono&display=fallback">
+        <style>body,input{font-family:"Chakra Petch",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Cutive Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="custom" data-md-color-accent="black">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#mt04-introduccion-a-electronica-y-programacion" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://wwwteo.github.io/mateo_olivera/" title="Mateo Olivera - UTEC & Fab Lab Barcelona" class="md-header-nav__button md-logo" aria-label="Mateo Olivera - UTEC & Fab Lab Barcelona">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 17H7V7h10m4 4V9h-2V7a2 2 0 00-2-2h-2V3h-2v2h-2V3H9v2H7c-1.11 0-2 .89-2 2v2H3v2h2v2H3v2h2v2a2 2 0 002 2h2v2h2v-2h2v2h2v-2h2a2 2 0 002-2v-2h2v-2h-2v-2m-6 2h-2v-2h2m2-2H9v6h6V9z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Mateo Olivera - UTEC & Fab Lab Barcelona
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              MT06
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/wwwteo/mateo_olivera" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Mateo Olivera : Github Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://wwwteo.github.io/mateo_olivera/" title="Mateo Olivera - UTEC & Fab Lab Barcelona" class="md-nav__button md-logo" aria-label="Mateo Olivera - UTEC & Fab Lab Barcelona">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 17H7V7h10m4 4V9h-2V7a2 2 0 00-2-2h-2V3h-2v2h-2V3H9v2H7c-1.11 0-2 .89-2 2v2H3v2h2v2H3v2h2v2a2 2 0 002 2h2v2h2v-2h2v2h2v-2h2a2 2 0 002-2v-2h2v-2h-2v-2m-6 2h-2v-2h2m2-2H9v6h6V9z"/></svg>
+
+    </a>
+    Mateo Olivera - UTEC & Fab Lab Barcelona
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/wwwteo/mateo_olivera" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Mateo Olivera : Github Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../about/me/" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Modulos Técnicos
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Modulos Técnicos" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Modulos Técnicos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mt01/" title="MT01" class="md-nav__link">
+      MT01
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mt02/" title="MT02" class="md-nav__link">
+      MT02
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mt03/" title="MT03" class="md-nav__link">
+      MT03
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mt04/" title="MT04" class="md-nav__link">
+      MT04
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mt05/" title="MT05" class="md-nav__link">
+      MT05
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        MT06
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="MT06" class="md-nav__link md-nav__link--active">
+      MT06
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#01" class="md-nav__link">
+    01.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#02" class="md-nav__link">
+    02.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#03" class="md-nav__link">
+    03.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#04" class="md-nav__link">
+    04.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#05-la-unificacion" class="md-nav__link">
+    05. La unificación
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Modulos Diseño
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Modulos Diseño" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Modulos Diseño
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../diseno/md01/" title="MD01" class="md-nav__link">
+      MD01
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../diseno/md02/" title="MD02" class="md-nav__link">
+      MD02
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Modulos Innovación
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Modulos Innovación" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        Modulos Innovación
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../innovacion/mi01/" title="MI01" class="md-nav__link">
+      MI01
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../innovacion/mi02/" title="MI02" class="md-nav__link">
+      MI02
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../innovacion/mi03/" title="MI03" class="md-nav__link">
+      MI03
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Proyecto Integrador
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Proyecto Integrador" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        Proyecto Integrador
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../proyecto/proyecto/" title="Ideas Iniciales" class="md-nav__link">
+      Ideas Iniciales
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Referencias
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Referencias" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        <span class="md-nav__icon md-icon"></span>
+        Referencias
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ref/web/" title="web" class="md-nav__link">
+      web
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#01" class="md-nav__link">
+    01.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#02" class="md-nav__link">
+    02.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#03" class="md-nav__link">
+    03.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#04" class="md-nav__link">
+    04.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#05-la-unificacion" class="md-nav__link">
+    05. La unificación
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/wwwteo/mateo_olivera/edit/master/docs/tecnicos/mt06.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  
+                
+                
+                <h1 id="mt04-introduccion-a-electronica-y-programacion">MT04 - Introducción a electrónica y programación<a class="headerlink" href="#mt04-introduccion-a-electronica-y-programacion" title="Permanent link">&para;</a></h1>
+<div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/MT04/intro.png"></div>
+
+<p>En este módulo técnico toca trabajar con electrónica y programación, concretamente trabajaremos con la placa Arduino, concretamente con la placa Arduino UNO. Para programar el microcontrolador utilizaremos el IDE de Arduino o el Arduino Cloud editor. También nos apoyaremos en simuladores tales cómo Tinkercad, Wokwi o Fritzing. </p>
+<p>El desafío consta de lo siguiente: </p>
+<ul>
+<li>LEER MÍNIMO DOS INPUTS</li>
+<li>ACTUAR MÍNIMO DOS OUTPUTS</li>
+</ul>
+<p>En mi caso optaré por orientar esta práctica a una posible aplicación en el proyecto final, concretamente, controlar un extrusor de impresora 3D con la placa Arduino UNO. Tomaré como entradas una sonda PT100 y un potenciómetro, mientras que las salidas serán un hotend de 20w y un motor de pasos Nema 17. </p>
+<h2 id="01">01.<a class="headerlink" href="#01" title="Permanent link">&para;</a></h2>
+<p>Lo primero fue entender cómo funciona la sonda PT100 de dos hilos, podemos decir que esta sonda funciona como una resistencia variable que aumenta su resistencia en función al aumento de temperatura. Esta sonda fue recuperada de un printcore de Ultimaker 3 roto por lo que un buen inicio es buscar información sobre la electrónica asociada a estos componentes. De la búsqueda de material pudimos obtener un indicio entre los archivos dispuestos en los repositorios github de <A HREF="https://github.com/Ultimaker/Ultimaker3">Ultimaker</A>. Desde aquí logramos calcular algunos valores teóricos de los voltajes deberíamos leer en el arduino y saber a qué temperatura corresponde ese valor, podríamos decir que debemos caracterizar el comportamiento del sensor. </p>
+<div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/MT04/teoria.jpg"></div>
+
+<p>El código para esta prueba se basó en el siguiente <A HREF="https://hetpro-store.com/TUTORIALES/sensor-pt100/">sketch</A>. Con una pendiente teórica del 1.94 corrimos el siguiente código y obtuvimos lecturas muy convincentes. </p>
+<div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/MT04/lecturas01.png"></div>
+
+<div class="highlight"><pre><span></span><code><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">analogInPin</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">A0</span><span class="p">;</span><span class="w">  </span><span class="c1">// Analog input pin that the potentiometer is attached to</span>
+<span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">analogOutPin</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">9</span><span class="p">;</span><span class="w"> </span><span class="c1">// Analog output pin that the LED is attached to</span>
+<span class="kt">float</span><span class="w"> </span><span class="n">m</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+<span class="kt">float</span><span class="w"> </span><span class="n">tempF</span><span class="o">=</span><span class="mf">0.0</span><span class="p">;</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">sensorValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w">        </span><span class="c1">// value read from the pot</span>
+<span class="kt">long</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">sensorValue1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">410.0</span><span class="w"> </span><span class="p">;</span>
+<span class="kt">long</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">sensorValue2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">668.0</span><span class="p">;</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">temperatura1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">temperatura2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">500</span><span class="p">;</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">offset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">25</span><span class="p">;</span>
+<span class="n">String</span><span class="w"> </span><span class="n">inString</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;&quot;</span><span class="p">;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="n">outputValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w">        </span><span class="c1">// value output to the PWM (analog out)</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">SerialComando</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="kt">void</span><span class="w"> </span><span class="nf">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
+<span class="w">  </span><span class="n">calibracionProceso</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="n">sensorValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">analogRead</span><span class="p">(</span><span class="n">analogInPin</span><span class="p">);</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;Sensor PT100 = &quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">sensorValue</span><span class="p">);</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\t</span><span class="s"> Temperatura = &quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="n">tempF</span><span class="o">=</span><span class="p">(</span><span class="kt">float</span><span class="p">)(</span><span class="n">m</span><span class="o">*</span><span class="p">(</span><span class="n">sensorValue</span><span class="o">-</span><span class="n">sensorValue2</span><span class="p">)</span><span class="o">+</span><span class="n">temperatura2</span><span class="o">-</span><span class="n">offset</span><span class="p">);</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">tempF</span><span class="p">);</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;°C&quot;</span><span class="p">);</span><span class="w">  </span><span class="n">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">calibracionProceso</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;La pendiente del sistema es m=(y2-y1)/(x2-x1)=&quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="n">m</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">float</span><span class="p">)((</span><span class="n">temperatura1</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">temperatura2</span><span class="p">)</span><span class="o">/</span><span class="p">((</span><span class="kt">float</span><span class="p">)</span><span class="n">sensorValue1</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="p">(</span><span class="kt">float</span><span class="p">)</span><span class="n">sensorValue2</span><span class="p">));</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="n">m</span><span class="p">);</span>
+
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="02">02.<a class="headerlink" href="#02" title="Permanent link">&para;</a></h2>
+<p>En este siguiente paso deberemos relacionar la entrada y la salida, la sonda PT100 y el hotend. Para ello deberemos implementar un sistema de control que mantenga estable la temperatura elegida, esto lo logramos implementando un sistema de control cerrado, con una retroalimentación y lo mejor, controlar la temperatura mediante un PID. El nombre PID proviene de sus tres componentes principales: Proporcional (P), Integral (I) y Derivativo (D). El controlador PID funciona leyendo un sensor, calculando la salida deseada del actuador y luego ajustando la salida del actuador en función del error entre la salida deseada y la medida actual.</p>
+<p>El sketch se basa en un ejemplo proporcionado en la librería creada por <A HREF="https://github.com/RobTillaart/PID_RT/issues/5">RobTillaart</A>. En la misma basta con configurar los pines de entrada y salida. Para hallar los valores de las constanses PID existen algunas técnicas para calcular valores teóricos, en este caso se probaron algunos valores aleatorios y se procedió a ajustarlos hasta obtener un rendimiento aceptable.  </p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;PID_RT.h&quot;</span>
+
+<span class="n">PID_RT</span><span class="w"> </span><span class="n">PID</span><span class="p">;</span>
+
+<span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">PWM_PIN</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span><span class="w">  </span><span class="c1">// UNO PWM pin</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="n">op</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="kt">float</span><span class="w"> </span><span class="n">input</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+
+<span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">analogInPin</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">A0</span><span class="p">;</span><span class="w">  </span><span class="c1">// Analog input pin that the potentiometer is attached to</span>
+<span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">analogOutPin</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">9</span><span class="p">;</span><span class="w"> </span><span class="c1">// Analog output pin that the LED is attached to</span>
+<span class="kt">float</span><span class="w"> </span><span class="n">m</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+<span class="kt">float</span><span class="w"> </span><span class="n">tempF</span><span class="o">=</span><span class="mf">0.0</span><span class="p">;</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">sensorValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w">        </span><span class="c1">// value read from the pot</span>
+<span class="kt">long</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">sensorValue1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">410.0</span><span class="w"> </span><span class="p">;</span>
+<span class="kt">long</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">sensorValue2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">668.0</span><span class="p">;</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">temperatura1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">temperatura2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">500</span><span class="p">;</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">offset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">25</span><span class="p">;</span>
+<span class="n">String</span><span class="w"> </span><span class="n">inString</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;&quot;</span><span class="p">;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="n">outputValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w">        </span><span class="c1">// value output to the PWM (analog out)</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">SerialComando</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
+
+<span class="w">  </span><span class="n">PID</span><span class="p">.</span><span class="n">setPoint</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+<span class="w">  </span><span class="n">PID</span><span class="p">.</span><span class="n">setOutputRange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">255</span><span class="p">);</span><span class="w">   </span><span class="c1">//  PWM range</span>
+<span class="w">  </span><span class="n">PID</span><span class="p">.</span><span class="n">setInterval</span><span class="p">(</span><span class="mi">50</span><span class="p">);</span>
+<span class="w">  </span><span class="n">PID</span><span class="p">.</span><span class="n">setK</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">15</span><span class="p">);</span>
+<span class="w">  </span><span class="n">PID</span><span class="p">.</span><span class="n">start</span><span class="p">();</span>
+<span class="w">  </span><span class="n">calibracionProceso</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="n">sensorValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">analogRead</span><span class="p">(</span><span class="n">analogInPin</span><span class="p">);</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;Sensor PT100 = &quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">sensorValue</span><span class="p">);</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\t</span><span class="s"> Temperatura = &quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="n">tempF</span><span class="o">=</span><span class="p">(</span><span class="kt">float</span><span class="p">)(</span><span class="n">m</span><span class="o">*</span><span class="p">(</span><span class="n">sensorValue</span><span class="o">-</span><span class="n">sensorValue2</span><span class="p">)</span><span class="o">+</span><span class="n">temperatura2</span><span class="o">-</span><span class="n">offset</span><span class="p">);</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">tempF</span><span class="p">);</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;°C&quot;</span><span class="p">);</span><span class="w">  </span>
+
+<span class="w">  </span><span class="n">input</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tempF</span><span class="p">;</span>
+<span class="w">  </span><span class="c1">//  input = analogRead(A0);</span>
+<span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">PID</span><span class="p">.</span><span class="n">compute</span><span class="p">(</span><span class="n">input</span><span class="p">))</span>
+<span class="w">  </span><span class="p">{</span>
+<span class="w">    </span><span class="n">op</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">PID</span><span class="p">.</span><span class="n">getOutput</span><span class="p">();</span>
+<span class="w">    </span><span class="n">analogWrite</span><span class="p">(</span><span class="n">PWM_PIN</span><span class="p">,</span><span class="w"> </span><span class="n">op</span><span class="p">);</span>
+<span class="w">    </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot; op: &quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">op</span><span class="p">);</span>
+<span class="w">    </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot; &quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">calibracionProceso</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;La pendiente del sistema es m=(y2-y1)/(x2-x1)=&quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="n">m</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">float</span><span class="p">)((</span><span class="n">temperatura1</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">temperatura2</span><span class="p">)</span><span class="o">/</span><span class="p">((</span><span class="kt">float</span><span class="p">)</span><span class="n">sensorValue1</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="p">(</span><span class="kt">float</span><span class="p">)</span><span class="n">sensorValue2</span><span class="p">));</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="n">m</span><span class="p">);</span>
+
+<span class="p">}</span>
+</code></pre></div>
+<div align="center"><iframe width="640" height="360" src="https://www.youtube.com/embed/2yGvAI3e8X4" title="Prueba pid Arduino, pt100 + hotend 20w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+<h2 id="03">03.<a class="headerlink" href="#03" title="Permanent link">&para;</a></h2>
+<p>En este punto sumaremos una nueva entrada al circuito, el potenciómetro. Para la conexión conectaremos los pines de afuera a 5v y gnd mientras que el del medio lo conectaremos a la entrada analógica A1 para obtener una lectura entre 0 y 1023. A nivel de código solo basta con agregar en el loop un analogRead(); para obtener la lectura, adicionalmente podemos crear una variable para almacenar la lectura y luego poderla mostrar en pantalla mediante el monitor serial.</p>
+<p>En la siguiente gráfica obtenida del ploteo de las variables en el serial plotter podemos apreciar el rango de variación de la entrada analógica que cambia a la par de la resistencia del potenciómetro (señal color naranja), la señal de color negro es el valor equivalente a loa 100°C de la medida de la sonda PT100 y también se puede ver en color rojo la señal del pwm generada por el PID para estabilizar la temperatura.</p>
+<div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/MT04/ploteo.png"></div>
+
+<h2 id="04">04.<a class="headerlink" href="#04" title="Permanent link">&para;</a></h2>
+<p>Ahora solo resta poder controlar el motor de pasos Nema 17 para tener todos los componentes necesarios para crear un extrusor controlado por arduino, este sería nuestra segunda salida controlada y con esta estaría completa la consigna. Para poder controlar el motor de pasos vamos a necesitar controlar el driver encargado de excitar las bobinas del motor con el voltaje de trabajo de estos motores pero recibiendo las señales de control de 5v desde el arduino. El driver a utilizar es el <A HREF="https://www.pololu.com/file/0J450/a4988_DMOS_microstepping_driver_with_translator.pdf">A4988</A>.  </p>
+<p>El código implementado se basó en el <A HREF="http://yomaker.com/control-de-motor-paso-a-paso/ ">tutorial</A>  de yomaker y quedó de la siguiente manera.</p>
+<div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">steps</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span><span class="w">       </span><span class="c1">// pin step 5</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">direccion</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">4</span><span class="p">;</span><span class="w">   </span><span class="c1">// pin direccion 4</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">potenciometro</span><span class="p">;</span><span class="w">   </span><span class="c1">// lectura del potenciometro</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">                </span>
+
+<span class="w">  </span><span class="c1">// inicializamos pin como salidas.</span>
+
+<span class="w">  </span><span class="n">pinMode</span><span class="p">(</span><span class="n">steps</span><span class="p">,</span><span class="w"> </span><span class="n">OUTPUT</span><span class="p">);</span><span class="w"> </span>
+<span class="w">  </span><span class="n">pinMode</span><span class="p">(</span><span class="n">direccion</span><span class="p">,</span><span class="w"> </span><span class="n">OUTPUT</span><span class="p">);</span><span class="w"> </span>
+<span class="p">}</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+
+<span class="w">    </span><span class="n">digitalWrite</span><span class="p">(</span><span class="n">direccion</span><span class="p">,</span><span class="w"> </span><span class="n">HIGH</span><span class="p">);</span><span class="w">    </span><span class="c1">// cambiamos de dirección segun pulsador</span>
+<span class="w">    </span><span class="n">potenciometro</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">analogRead</span><span class="p">(</span><span class="n">A2</span><span class="p">);</span><span class="w">     </span><span class="c1">// leemos el potenciometro</span>
+<span class="w">    </span><span class="n">potenciometro</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">map</span><span class="p">(</span><span class="n">potenciometro</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1024</span><span class="p">,</span><span class="mi">900</span><span class="p">,</span><span class="mi">2500</span><span class="p">);</span><span class="w">  </span><span class="c1">// adaptamos el valor leido a un retardo</span>
+<span class="w">    </span><span class="n">digitalWrite</span><span class="p">(</span><span class="n">steps</span><span class="p">,</span><span class="w"> </span><span class="n">HIGH</span><span class="p">);</span><span class="w">         </span><span class="c1">// Aqui generamos un flanco de bajada HIGH - LOW</span>
+<span class="w">    </span><span class="n">delayMicroseconds</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span><span class="w">              </span><span class="c1">// Pequeño retardo para formar el pulso en STEP</span>
+<span class="w">    </span><span class="n">digitalWrite</span><span class="p">(</span><span class="n">steps</span><span class="p">,</span><span class="w"> </span><span class="n">LOW</span><span class="p">);</span><span class="w">         </span><span class="c1">// y el A4988 de avanzara un paso el motor</span>
+<span class="w">    </span><span class="n">delayMicroseconds</span><span class="p">(</span><span class="n">potenciometro</span><span class="p">);</span><span class="w"> </span><span class="c1">// generamos un retardo con el valor leido del potenciometro</span>
+<span class="w">  </span><span class="p">}</span>
+</code></pre></div>
+<div align="center"><iframe width="315" height="560" src="https://youtube.com/embed/a4I6wSzQyYo" title="Prueba de funcionamiento - Manivela" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+<h2 id="05-la-unificacion">05. La unificación<a class="headerlink" href="#05-la-unificacion" title="Permanent link">&para;</a></h2>
+<p>Bueno, después de dar unas buenas vueltas al asunto, he intentado unificar el sistema de control de temperatura y el control de motor con potenciómetro fracasando con total éxito. </p>
+<p>Lo que entiendo que sucede es un conflicto de tiempos de ejecución, ya que cada sketch por separado funciona bien pero al unificarlos el PID pierde precisión y el motor de pasos se comporta de manera errónea. Para solucionar este inconveniente intenté implementar FreeRTOS, este es un sistema operativo de tiempo real kernel para dispositivos embebidos que puede correr en un microcontrolador. Aquí logramos switchear entre ambas tareas y asignarles prioridades. </p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;PID_RT.h&quot;</span>
+<span class="n">PID_RT</span><span class="w"> </span><span class="n">PID</span><span class="p">;</span>
+
+<span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">PWM_PIN</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span><span class="w">  </span><span class="c1">// UNO PWM pin</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">op</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="kt">float</span><span class="w"> </span><span class="n">input</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+
+<span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">analogInPin</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">A0</span><span class="p">;</span><span class="w">  </span><span class="c1">// Analog input pin that the potentiometer is attached to</span>
+<span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">analogOutPin</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">9</span><span class="p">;</span><span class="w"> </span><span class="c1">// Analog output pin that the LED is attached to</span>
+<span class="kt">float</span><span class="w"> </span><span class="n">m</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+<span class="kt">float</span><span class="w"> </span><span class="n">tempF</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">sensorValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w">        </span><span class="c1">// value read from the pot</span>
+<span class="kt">long</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">sensorValue1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">410.0</span><span class="w"> </span><span class="p">;</span>
+<span class="kt">long</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">sensorValue2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">668.0</span><span class="p">;</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">temperatura1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">temperatura2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">500</span><span class="p">;</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">offset</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">25</span><span class="p">;</span>
+<span class="n">String</span><span class="w"> </span><span class="n">inString</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;&quot;</span><span class="p">;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="n">outputValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w">        </span><span class="c1">// value output to the PWM (analog out)</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">SerialComando</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
+
+<span class="w">  </span><span class="n">PID</span><span class="p">.</span><span class="n">setPoint</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+<span class="w">  </span><span class="n">PID</span><span class="p">.</span><span class="n">setOutputRange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">255</span><span class="p">);</span><span class="w">   </span><span class="c1">//  PWM range</span>
+<span class="w">  </span><span class="n">PID</span><span class="p">.</span><span class="n">setInterval</span><span class="p">(</span><span class="mi">50</span><span class="p">);</span>
+<span class="w">  </span><span class="n">PID</span><span class="p">.</span><span class="n">setK</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">15</span><span class="p">);</span>
+<span class="w">  </span><span class="n">PID</span><span class="p">.</span><span class="n">start</span><span class="p">();</span>
+
+<span class="w">  </span><span class="n">calibracionProceso</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="n">sensorValue</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">analogRead</span><span class="p">(</span><span class="n">analogInPin</span><span class="p">);</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;Sensor PT100 = &quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">sensorValue</span><span class="p">);</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\t</span><span class="s"> Temperatura = &quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="n">tempF</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">float</span><span class="p">)(</span><span class="n">m</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="n">sensorValue</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">sensorValue2</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">temperatura2</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">offset</span><span class="p">);</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">tempF</span><span class="p">);</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;°C&quot;</span><span class="p">);</span>
+
+<span class="w">  </span><span class="n">input</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tempF</span><span class="p">;</span>
+<span class="w">  </span><span class="c1">//  input = analogRead(A0);</span>
+<span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">PID</span><span class="p">.</span><span class="n">compute</span><span class="p">(</span><span class="n">input</span><span class="p">))</span>
+<span class="w">  </span><span class="p">{</span>
+<span class="w">    </span><span class="n">op</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">PID</span><span class="p">.</span><span class="n">getOutput</span><span class="p">();</span>
+<span class="w">    </span><span class="n">analogWrite</span><span class="p">(</span><span class="n">PWM_PIN</span><span class="p">,</span><span class="w"> </span><span class="n">op</span><span class="p">);</span>
+<span class="w">    </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot; op: &quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">op</span><span class="p">);</span>
+<span class="w">    </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot; &quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="p">}</span>
+
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot; Potenciómetro: &quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">lectura_pote</span><span class="p">);</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot; &quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">calibracionProceso</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;La pendiente del sistema es m=(y2-y1)/(x2-x1)=&quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="n">m</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">float</span><span class="p">)((</span><span class="n">temperatura1</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">temperatura2</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="p">((</span><span class="kt">float</span><span class="p">)</span><span class="n">sensorValue1</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="p">(</span><span class="kt">float</span><span class="p">)</span><span class="n">sensorValue2</span><span class="p">));</span>
+<span class="w">  </span><span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="n">m</span><span class="p">);</span>
+
+<span class="p">}</span>
+</code></pre></div>
+<p>El resultado no fue muy convincente, solo funciona una de las dos tareas cuando le damos la máxima prioridad. Me toca seguir investigando alternativas para poder implementar un control más robusto para el extrusor.</p>
+                
+                  
+                    
+
+<hr>
+<div class="md-source-date">
+  <small>
+    
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 8, 2024</span>
+    
+  </small>
+</div>
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../mt05/" title="MT05" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                MT05
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../../diseno/md01/" title="MD01" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                MD01
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyleft 2024 "Nombre Estudiante" - GNU Free Documentation License
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://medium.com/" target="_blank" rel="noopener" title="medium.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 32v448h448V32H0zm372.2 106.1l-24 23c-2.1 1.6-3.1 4.2-2.7 6.7v169.3c-.4 2.6.6 5.2 2.7 6.7l23.5 23v5.1h-118V367l24.3-23.6c2.4-2.4 2.4-3.1 2.4-6.7V199.8l-67.6 171.6h-9.1L125 199.8v115c-.7 4.8 1 9.7 4.4 13.2l31.6 38.3v5.1H71.2v-5.1l31.6-38.3c3.4-3.5 4.9-8.4 4.1-13.2v-133c.4-3.7-1-7.3-3.8-9.8L75 138.1V133h87.3l67.4 148L289 133.1h83.2v5z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://instagram.com/" target="_blank" rel="noopener" title="instagram.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://twitter.com/" target="_blank" rel="noopener" title="twitter.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://github.com/" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.df0def68.min.js"></script>
+      <script src="../../assets/javascripts/bundle.ba57d267.min.js"></script><script id="__lang" type="application/json">{"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ["instant", "navigation.expand", "navigation.indexes", "navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking"],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
