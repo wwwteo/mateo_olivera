@@ -5,6 +5,8 @@ hide:
 
 # Proyecto Final 
 
+<div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/PFI/tira.gif"></div>
+
 ## Introducción 
 
 
@@ -32,17 +34,17 @@ A lo largo de los módulos técnicos se pudo apreciar el progreso del kit educat
 ### Primer prototipo
 
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1CxVmuUZaR4Hmsm0SG9KRMDpiwuOQBgGK/preview" width="320" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1CxVmuUZaR4Hmsm0SG9KRMDpiwuOQBgGK/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1CwrK8LxPcBmXv5usl4UobvR5QuKEPIEe/preview" width="320" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1CwrK8LxPcBmXv5usl4UobvR5QuKEPIEe/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1CsliC7mYe6LqUA7EEhlle1k6dHPWOWeY/preview" width="320" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1CsliC7mYe6LqUA7EEhlle1k6dHPWOWeY/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 ### Testeo del prototipo
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1CfxG6XUTK29Ds0dZ7Nd_w6k63qQeTJX9/preview" width="320" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1CfxG6XUTK29Ds0dZ7Nd_w6k63qQeTJX9/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1C_BDeN6T2nEBz6Jxfz2CtjFvOmw5nCKf/preview" width="640" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1C_BDeN6T2nEBz6Jxfz2CtjFvOmw5nCKf/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 
 
@@ -197,17 +199,17 @@ A lo largo de los módulos técnicos se pudo apreciar el progreso del kit educat
 </html>
 
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1CZ90vXjCpaDcdkGNDXaiNp4sGLWoqDiK/preview" width="640" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1CZ90vXjCpaDcdkGNDXaiNp4sGLWoqDiK/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 ### Teseo del material
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1CnK2vZFcaYzdLvnv4cKpDHadDCB5SScW/preview" width="320" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1CnK2vZFcaYzdLvnv4cKpDHadDCB5SScW/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 <div align="center"><iframe src="https://drive.google.com/file/d/1C-f7bWFb9ZG7N8PuT_JDYFl72ks-Cj0M/preview" width="640" height="700" allow="autoplay"></iframe></div>
 
 ### Manual de montaje de kit 
 
-<div align="center"><iframe src="https://docs.google.com/presentation/d/1JmIEiexn-veYzaz4ns18bn1vDDY3XuGU4As6_H0PFB0/preview" width="640" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://docs.google.com/presentation/d/1JmIEiexn-veYzaz4ns18bn1vDDY3XuGU4As6_H0PFB0/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 
 Segundo prototipo
@@ -226,14 +228,15 @@ Al quebrarla se constató que el filamento es muy frágil, se desintegra al toca
 <div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/PFI/IMG_20240831_193213.jpg"></div>
 
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1OaN1u3udYixfFL_CpLp42ZdTW0IcLMmn/preview" width="320" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1OaN1u3udYixfFL_CpLp42ZdTW0IcLMmn/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 En clase, al plantear la problemática, Edu comenta el potencial del hilo de nicrom el cual en Uruguay se consigue pero por grandes cantidades y resulta bastante costoso para una prueba por lo que acudí a reciclarlo de una vieja tostadora. 
 
 <div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/PFI/IMG_20240831_210050.jpg"></div>
 
 Logré extraer casi 2 metros, para esta prueba necesitaré 50 cm.
-IMG_20240831_214740.jpg
+
+<div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/PFI/IMG_20240831_214740.jpg"></div>
 
 Para el armado fue necesario raspar el cilindro para emparejarlo y dejarlo listo para aislarlo con cinta adhesiva térmica. 
 
@@ -249,16 +252,15 @@ Para controlar la temperatura del extrusor en primera instancia se utilizará el
 </div>
 
 
-<div align="center"><iframe width="100%" height="800" src="https://wwwteo.github.io/mateo_olivera/tecnicos/mt04/#02"></iframe>
+<div align="center"><iframe width="100%" height="800" src="https://wwwteo.github.io/mateo_olivera/tecnicos/mt04/#01"></iframe>
 </div>
 
 
-
-<div align="center"><iframe src="https://drive.google.com/file/d/1OdQxKCVn5HRmdHpTPriG_yU37jlZNCkn/preview" width="320" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1OdQxKCVn5HRmdHpTPriG_yU37jlZNCkn/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 Entonces ya podemos probar cómo el material debería ser empujado hacia la boquilla.
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1P6Jr8lLTwTXPHd2DbmsFKgD6i9Ja7cjl/preview" width="320" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1P6Jr8lLTwTXPHd2DbmsFKgD6i9Ja7cjl/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 De esta prueba podemos observar que para que el material llegue a la boquilla empujado por la consistencia del propio material este deberá tener un doblez que haga de nervio y así mantener un flujo consistente. 
 
@@ -308,7 +310,7 @@ Así es cómo se ven la polea, la rueda motriz y el motor ya ubicados en la base
 En esta prueba de tracción del material se puede apreciar cómo las deformidades de la polea y rueda motriz generan picos en los cuales el motor de fuerza demasiado perdiendo pasos.
 
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1lktEsvEjF99o7t-PxwQIlmBhpmqFIxYO/preview" width="320" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1lktEsvEjF99o7t-PxwQIlmBhpmqFIxYO/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 Las piezas que corresponden a la carcasa del extrusor, las condiciones de trabajo son diferentes debido a que estas estarán expuestas a temperaturas de 230 - 240 °C lo que implica un gran desafío. Para este primer prototipo se utilizará la resina High Temp V2 de Formlabs y la impresora Form 3. 
 
@@ -317,7 +319,7 @@ Las piezas que corresponden a la carcasa del extrusor, las condiciones de trabaj
 
 <div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/PFI/impResina.png"></div>
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1B25pQRPtMxr7ndUhTKMdObe3lEVDx2iQ/preview" width="320" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1B25pQRPtMxr7ndUhTKMdObe3lEVDx2iQ/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 Cómo se puede apreciar en esta primera versión de la carcasa se pueden apreciar orificios de ventilación los cuales tienen la función de evitar que el material se deforme antes de llegar a la boquilla. Lamentablemente esto hizo que la estructura quede demasiado débil por lo que en la próxima versión se eliminó.
 
@@ -337,7 +339,7 @@ Ahora unificamos ambas partes y testeamos el funcionamiento antes de pasar a mon
 
 <div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/PFI/1734531324238.jpg"></div>
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1lGERW37ch3T543npdDj1ToDsJGRzpdMP/preview" width="320" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1lGERW37ch3T543npdDj1ToDsJGRzpdMP/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 Montaje de extrusor en la impresora 3D
 
@@ -350,11 +352,11 @@ Montaje de extrusor en la impresora 3D
 En este montaje se utiliza la electrónica de la impresora 3D ya que la idea es crear un kit compatible con una impresora universal, es decir: el sensor de temperatura utilizado es el propio de la impresora 3D extraído del extrusor original, el motor de pasos es el propio de la impresora y en lugar del hotend original se conectaron los dos extremos del hilo de nicrom, el cual tiene un impedancia de 7.7 ohm mientras que el hotend original es de 8 ohm.
   
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1kd4pZtqoNL1plh6AKk9LOsqRVetlIgvo/preview" width="320" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1kd4pZtqoNL1plh6AKk9LOsqRVetlIgvo/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 En la siguiente prueba de extrusión a 230°C se puede apreciar el primer error de diseño: rueda motriz con diámetro demasiado grande. Esto, sumado a las imperfecciones de la textura de ambas piezas hacen que se fuerce el motor provocando la pérdida de pasos e impidiendo la correcta extrusión. 
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1kc76_8uvjP-mztxPq_mxjSSMJf8nhtR1/preview" width="320" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1kc76_8uvjP-mztxPq_mxjSSMJf8nhtR1/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 Y aquí el segundo gran error, de índole catastrófico: resquebrajamiento del material. El puntero de la carcasa no es capaz de soportar la temperatura y la presión del material al ser empujado por la boquilla. Esto llevó a la rotura, justo en la rosca de la pieza. 
 
@@ -385,14 +387,14 @@ El modelo elegido para la prueba es un moai de estos que se ven en las islas de 
 
 Lastimosamente en el precalentamiento del extrusor ya se marcó una grieta en el puntero de la carcasa del extrusor. Para prevenir que esto impida realizar las pruebas procedí a buscar un refuerzo estructural. 
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1j2lVHBAzHSAs0CC8QTohevPtn_dNtyLJ/preview" width="320" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1j2lVHBAzHSAs0CC8QTohevPtn_dNtyLJ/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 Lo primero que se me ocurrió fue envolverlo en alambre, el alambre es un recurso muy valioso en nuestro país, muchas cosas se solucionan con este elemento y se puede encontrar en casi cualquier parte. 
 
 Creo que aunque puede funcionar quedará mejor solucionarlo con fabricación digital por lo que opté por cortar una especie de refuerzo que pueda atornillar y darle mayor resistencia.
 
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1iliG2YowILiZc_kR1SPZTRPtaHmeX7el/preview" width="320" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1iliG2YowILiZc_kR1SPZTRPtaHmeX7el/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 
 <div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/PFI/1734531323497.jpg"></div>
@@ -409,13 +411,13 @@ El material a utilizar se ve así:
 Prueba #1: Arrancó bien, hubo problemas en la adherencia y fue necesario abortar.
 
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1iZ-zbfP0c3XPkzVeA-Yx79QmWpdVIXMi/preview" width="640" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1iZ-zbfP0c3XPkzVeA-Yx79QmWpdVIXMi/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 Prueba #2: En esta también hubo mala adherencia, pero lo peor: ya se pudo ver un desprendimiento de casi medio puntero.
 
 
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1iRLZXR0Up_jbinFU5SX05ieSVP5grq50/preview" width="320" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1iRLZXR0Up_jbinFU5SX05ieSVP5grq50/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 Afortunadamente el refuerzo de acrílico todavía siguió firme, y sostiene lo que le queda de vida al extrusor. 
 
@@ -425,7 +427,7 @@ Prueba #3: Con la ayuda de la mano del hombre para dar un plus de toque en la po
 
 
 
-<div align="center"><iframe src="https://drive.google.com/file/d/1hzmnFnJu_fJqj8Z2Pcjd6VtZ8BrworV7/preview" width="320" height="480" allow="autoplay"></iframe></div>
+<div align="center"><iframe src="https://drive.google.com/file/d/1hzmnFnJu_fJqj8Z2Pcjd6VtZ8BrworV7/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 Conclusiones y Reflexión
 
