@@ -207,12 +207,12 @@ A lo largo de los módulos técnicos se pudo apreciar el progreso del kit educat
 
 <div align="center"><iframe src="https://drive.google.com/file/d/1C-f7bWFb9ZG7N8PuT_JDYFl72ks-Cj0M/preview" width="640" height="700" allow="autoplay"></iframe></div>
 
-### Manual de montaje de kit 
+#### Manual de montaje de kit 
 
 <div align="center"><iframe src="https://docs.google.com/presentation/d/1JmIEiexn-veYzaz4ns18bn1vDDY3XuGU4As6_H0PFB0/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
 
-Segundo prototipo
+### Segundo prototipo
 
 Para el desarrollo de este segundo prototipo se busca redoblar la apuesta al intentar extruir una tira de entre 8 y 10 mm de ancho. Para ello la idea es calentar un pico metálico (reciclado de una pistola de silicona) y empujar la tira hacia el mismo. Para lograrlo es necesario aumentar la temperatura en dicho pico por lo que deberemos agregarle una nueva resistencia que pueda proporcionar ese calor.
 
@@ -341,7 +341,7 @@ Ahora unificamos ambas partes y testeamos el funcionamiento antes de pasar a mon
 
 <div align="center"><iframe src="https://drive.google.com/file/d/1lGERW37ch3T543npdDj1ToDsJGRzpdMP/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
-Montaje de extrusor en la impresora 3D
+#### Montaje de extrusor en la impresora 3D
 
 
 <div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/PFI/1734531324028.jpg"></div>
@@ -363,7 +363,7 @@ Y aquí el segundo gran error, de índole catastrófico: resquebrajamiento del m
 
 <div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/PFI/1734531323853.jpg"></div>
 
-Mejoras realizadas
+#### Mejoras realizadas
 
 Para intentar corregir la pérdida de pasos del motor y aumentar así el torque con el que se empuja el material se procedió a rediseñar la polea y la rueda motriz, por ende se debió reimprimir el soporte con nuevas modificaciones, entre ellas una nueva guía para el material. 
 
@@ -377,7 +377,7 @@ También se volvieron a imprimir las piezas de resina y se realizó minuciosamen
 
 <div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/PFI/1734531323616.jpg"></div>
 
-¡Últimas pruebas antes de la presentación final del proyecto! 
+#### ¡Últimas pruebas antes de la presentación final del proyecto! 
 
 <div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/PFI/moai.png"></div>
 
@@ -429,7 +429,7 @@ Prueba #3: Con la ayuda de la mano del hombre para dar un plus de toque en la po
 
 <div align="center"><iframe src="https://drive.google.com/file/d/1hzmnFnJu_fJqj8Z2Pcjd6VtZ8BrworV7/preview" width="640" height="960" allow="autoplay"></iframe></div>
 
-Conclusiones y Reflexión
+## Conclusiones y Reflexión
 
 En lo personal me encuentro sumamente satisfecho con los resultados obtenidos hasta el momento con las pruebas realizadas y por sobre todo el camino recorrido, gracias a los errores cometidos logré encontrar las debilidades de los dispositivos desarrollados, en este último estas fallas se transformarán en futuras mejoras que sin duda le darán a este proyecto la vuelta de rosca que necesita para poder ser un proyecto replicable, reutilizado y escalado. 
 
