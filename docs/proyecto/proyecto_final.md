@@ -442,3 +442,25 @@ En lo personal me encantaría que otras instituciones puedan no solo obtenerlo, 
 Agradezco la oportunidad de haber cursado este proceso, compartir las clases con gente muy crack como lo son mis compañeros y compañeras de generación así como haber podido contar con el feedback de el cuerpo docente que está compuesto de un equipo increíble, referentes en la temática a nivel mundial y con una expertise invaluable. Termino esta reflexión con una imágen del medio moai de pet. ¡Muchas gracias!
 
 <div align="center"><img src="https://github.com/wwwteo/mateo_olivera/raw/main/docs/images/PFI/1734531323287.jpg"></div>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Incrustar Link</title>
+</head>
+<body>
+  <h1>Enlace a archivos descargables</h1>
+  <p>Kit educativo:</p>
+  <a href="https://cad.onshape.com/documents/ffdd0de0bdbe4d3632368bb7/w/1624db3998493002e46f323c/e/819824c61a9fa15bfe2e0031">
+    Archivos descargables del Módulo
+  </a>
+  </p>
+  </a>
+  <p>Extrusora:</p>
+  <a href="https://cad.onshape.com/documents/9b0b873cd17b9bf86fdb64f5/w/1018f03aaec7d3da32a13d33/e/6179f6f5c395a4c366c48ca1">
+    Archivos descargables del Módulo
+  </a>
+</body>
+</html>
